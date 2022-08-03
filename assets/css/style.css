@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'Hughs';
+    src: url('../fonts/Hughs.woff2') format('woff2'),
+         /* url('../fonts/Hughs.woff') format('woff'),
+         url('../fonts/Hughs.ttf')  format('truetype'); */
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2')
+         /* url('../fonts/OpenSans-Regular.woff') format('woff'), */
+         /* url('../fonts/OpenSans-Regular.ttf')  format('truetype'); */
+}
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+         url('../fonts/OpenSans-Bold.woff') format('woff'),
+         url('../fonts/OpenSans-Bold.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.woff2') format('woff2'),
+         url('../fonts/OpenSans-Light.woff') format('woff'),
+         url('../fonts/OpenSans-Light.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+         url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+         url('../fonts/OpenSans-ExtraBold.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+         url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+         url('../fonts/OpenSans-SemiBold.ttf')  format('truetype');
+}
+/* body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    overflow: auto;
+    max-width: 100%;
+}
+.main{
+    margin-top: 26px;
+    margin-bottom: 2px;
+}
+.logo a{
+    text-decoration: none;
+    float: left;
+    font-size: 54px;
+    font-family: 'Hughs';
+    color: #000000;
+}
+.header{
+    float: right;
+    margin-top: 26px;
+    margin-bottom: 12px;
+}
+.header li{
+    display: inline;
+}
+.menu{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'OpenSans-Bold';
+    font-size: 13.5px;
+}
+.menu-item{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'OpenSans-Regular';
+    font-size: 13.5px;
+    margin-left: 20px;
+}
+.btn-sign{
+    background-color: #244752;
+    font-family:'OpenSans-Bold';
+    color: #ffffff;
+    font-size: 13.5px;
+    border: none;
+    margin-left: 40px;
+    text-decoration: none;
+    padding: 8px;
+}
+.btn-log{
+    background-color: #00b3ab;
+    font-family:'OpenSans-Bold';
+    color: #000000;
+    font-size: 13.5px;
+    border: none;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 2px;
+} */
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    overflow: auto;
+    max-width: 100%;
+}
+.main{
+    margin-top: 25px;
+    margin-bottom: 2px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 54px;
+    font-family: 'Hughs';
+    color: #000000;
+}
+nav ul{
+    float: right;
+    margin-top: 30px;
+  }
+  nav li{
+    display: inline;
+  }
+  nav #icon{
+    font-size: 30px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    margin-top: 15px;
+  }
+.menu{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'OpenSans-Bold';
+    font-size: 13.5px;
+}
+.menu-item{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'OpenSans-Regular';
+    font-size: 13.5px;
+    margin-left: 20px;
+}
+.btn-sign{
+    background-color: #244752;
+    font-family:'OpenSans-Bold';
+    color: #ffffff;
+    font-size: 13.5px;
+    border: none;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 40px;
+    margin-right: 5px;
+}
+.btn-log{
+    background-color: #00b3ab;
+    font-family:'OpenSans-Bold';
+    color: #000000;
+    font-size: 13.5px;
+    border: none;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-family: 'OpenSans-Regular';
+    font-size: 13.5px;
+    background-color: #ffffff;
+    padding: 28px;
+    margin: 0px;
+}
+.footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Affordable Legal Drafts */
+
+.affor{
+    padding-top: 38px;
+    background-color: #00b3ab;
+    text-align: center;
+}
+.high{
+    font-family: 'Hughs';
+    font-size: 45px;
+    color: #ffffff;
+    padding-bottom: 12px;
+    margin: 0px;
+}
+.low{
+    font-family: 'OpenSans-Regular';
+    font-size: 36px;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+.btn-try{
+    font-family: 'OpenSans-Regular';
+    font-size: 22.5px;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2px 70px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.m-bottom{
+    margin-bottom: 40px;
+}
+/* Sitemap */
+
+.sitemap{
+    background-color: #000000;
+    overflow: auto;
+}
+.left{
+    float: left;
+    color: #ffffff;
+    padding-top: 35px;
+}
+.right{
+    float: right;
+    color: #ffffff; 
+    padding-top: 35px;
+}
+.left p{
+    font-size: 18px;
+    font-family: 'OpenSans-Bold';
+}
+.right p{
+    font-size: 18px;
+    font-family: 'OpenSans-Bold';
+}
+.s-right{
+    padding-top: 15px;
+    padding-right: 50px;
+}
+.s-bottom{
+    padding-bottom: 46px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid span a{
+    font-family:'OpenSans-Regular' ;
+    font-size: 13.5px;
+    color: #ffffff;
+    padding-right: 25px;
+    text-decoration: none;
+}
+.m-space{
+    padding-bottom: 10px;
+}
+
+/* Browse by Category */
+
+.category{
+    background-color: #244752;
+}
+.browse{
+    padding-top: 40px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Hughs';
+    font-size: 45px;
+    color: #ffffff;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.content h2{
+    color: #d3f1ec;
+    font-family: 'OpenSans-Light' ;
+    margin: 0px;
+    font-size: 22.5px;
+}
+.content ul{
+    padding: 0px;
+}
+.rera{
+    padding-right: 5px;
+    padding-bottom: 18px;
+}
+.col{
+    padding-left: 15px;
+    padding-bottom: 18px;
+}
+.column{
+    font-size: 13.5px;
+    font-family: 'OpenSans-Light';
+    color: #ffffff;
+}
+
+/* Online Petition */
+.online{
+    background-image: url(../images/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.style{
+    padding-top: 115px;
+    margin: 0px;
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'OpenSans-ExtraBold';
+    text-align: center;
+}
+.inline{
+    color: #ffffff;
+    font-family:'OpenSans-Light' ;
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px;
+    text-align: center;
+}
+.inline li{
+    display: inline;
+    padding-right: 28px;
+}
+.inline li::before{
+    font-family: FontAwesome;
+    content: "\f111";
+    padding-right: 6px;
+    font-size: 13.5px;
+    vertical-align: middle;
+}
+.b-format{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'OpenSans-SemiBold' ;
+    color: #ffffff;
+    margin: 0px;
+    padding-top: 30px;
+}
+ul.a-to-z{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.a-to-z li{
+    display: inline;
+    text-align: center;
+}
+.a-to-z li a{
+    text-decoration: none;
+    font-size: 27px;
+    font-family:'OpenSans-Light' ;
+    color: #ffffff;
+    padding-right: 10px;
+}
+.btn-search{
+    font-family: 'OpenSans-Light';
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #00b3ab;
+    border: none;
+    text-align: center;
+    width: 120px;
+    padding: 8px;
+    border-radius:0px 5px 5px 0px ;
+    margin-left: -4px;
+}
+.btn-search i{
+    padding-right: 5px; 
+}
+.text{
+    width: 500px;
+    font-size: 18px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #d3f1ec;
+    border: none;
+    border-radius:5px 0px 0px 5px ;
+    outline: none;
+}
+.m-form{
+    text-align: center;
+    padding: 3px;
+    background-color: #ffffff;
+    width:625px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About Legal Drafts */
+.about{
+    background-color: #d3f1ec;
+}
+.h-about{
+    margin: 0px;
+    font-family: 'Hughs';
+    font-size: 45px;
+    color: #244752;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+.s-about{
+    font-family: 'OpenSans-Regular' ;
+    font-size: 13.5px;
+    text-align: right;
+    margin: 0px;
+    padding-bottom: 50px;
+    line-height: 20px;
+}
+.slide-content{
+    position: relative;
+}
+.slide-content blockquote{
+    font-size: 22.5px;
+    font-family: 'OpenSans-Light';
+    text-align: center;
+    padding: 0px;
+}
+.slide-content blockquote::before{
+    content: "\201C";
+    font-size: 54px;
+    font-family: 'OpenSans-ExtraBold';
+    color: #244752;
+    top: 0;
+    left: 45px;
+    position: absolute;
+}
+.slide-content blockquote::after{
+    content: "\201D";
+    font-size: 54px;
+    font-family: 'OpenSans-ExtraBold';
+    color: #244752;
+    position: absolute;
+    top: 0;
+    right: 45px;
+}
+.slick-dots li{
+    display: inline;
+}  
+.slick-dots li button{
+    height:15px;
+    width: 15px;
+    border-radius: 50%;
+    font-size: 0;
+    border: none;
+    background-color: #244752;
+    margin-bottom: 18px;
+    margin-right: 5px;
+}
+.slick-dots li.slick-active button{
+    background-color:#000000;
+}
+.slide-content p{
+    margin: 0;
+    font-family: 'OpenSans-Bold';
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+} 
+  .slick-slide {
+    .slide-content{
+      margin: 0 @gutters;
+      padding: 50px 100px;
+      background: #fff;
+    }
+  }
+  
+  .slick-list {
+     margin: 20px 0px;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    right: @gutters;
+    background: #777;
+    border: none;
+    color: transparent;
+    width: 30px;
+    height: 30px;
+   
+    &:before { 
+      content: ">"; 
+      color: #fff; 
+      font-size: 25px;
+    }
+  }
+  
+  .slick-prev { 
+    left: @gutters; 
+    &:before { content: "<"; }
+  }
+  
+  .slick-dots {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+    li {
+      display: inline-block;
+      
+      
+      button { 
+        transition: 0.2s background-color ease-in-out 0s;
+        border: none;
+        padding: 0;
+        color: transparent;
+        
+        width: 10px;
+        height: 10px;
+        background-color: #777;
+        margin-right: 10px;
+        border-radius: 50%; 
+      }
+
+       &.slick-active button { background-color: #fff; }
+    }
+  }
