@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'OpenSans-SemiBold';
-  src: url('/path-to/OpenSans-SemiBold.woff2') format('woff2'),
-       url('/path-to/OpenSans-SemiBold.woff') format('woff'),
-       url('/path-to/OpenSans-SemiBold.ttf')  format('truetype');
+  font-family: 'TitilliumWeb-SemiBold';
+  src: url('/path-to/TitilliumWeb-SemiBold.woff2') format('woff2'),
+       url('/path-to/TitilliumWeb-SemiBold.woff') format('woff'),
+       url('/path-to/TitilliumWeb-SemiBold.ttf')  format('truetype');
 }
 
 body {
-  font-family: 'OpenSans-SemiBold', sans-serif;
+  font-family: 'TitilliumWeb-SemiBold', sans-serif;
 }

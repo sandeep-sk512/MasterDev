@@ -5,311 +5,363 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css"/>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
   </head>
   <body>
-    <!-- Header Section-->
-    <!-- <section>
-      <div class="container main">
-        <div class="logo">
-          <a href="#">LegalDrafts.in</a>
-        </div>
-        <nav>
-          <ul type="none" class="header">
-            <li><a class="menu" href="#">Home</a></li>
-            <li><a class="menu-item" href="#">About Us</a></li>
-            <li><a class="menu-item" href="#">Support</a></li>
-            <li><a class="menu-item" href="#">Pricing</a></li>
-            <li><a class="menu-item" href="#">Blog</a></li>
-            <li><a class="btn-sign" href="#">SIGN UP</li></a>
-            <li><a class="btn-log" href="#">LOG IN</li></a>
-          </ul>
-        </nav>
-      </div>
-    </section> -->
+    <!-- Top Header -->
     <section>
-      <div class="container main">
-        <nav>
-            <label class="logo"><a href="#">LegalDrafts.in</a></label>
+      <div class="main">
+        <div class="main-container">
+          <div class="top-header">
+            <div class="icon-fb">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="top-header-content">
+              <p class="phone">+43(0)7252/70925</p>
+              <p class="envelope">@kaltenreiner.at</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Header -->
+    <section>
+      <div class="main-container main-top">
+        
+        <header class="header">
+          <div class="logo"><img src="./assets/images/logo.svg" alt=""></div>
+      
+          <input type="checkbox" name="toggle" id="toggle">
+          <label for="toggle"><img src="./assets/images/toggle.png" alt=""></label>
+      
+          <nav class="navigation">
             <ul>
-              <li><a class="menu" href="#">Home</a></li>
-              <li><a class="menu-item" href="#">About Us</a></li>
-              <li><a class="menu-item" href="#">Support</a></li>
-              <li><a class="menu-item" href="pricing.html">Pricing</a></li>
-              <li><a class="menu-item" href="#">Blog</a></li>
-              <li><a class="btn-sign" href="#">SIGN IN</a></li>
-              <li><a class="btn-log" href="#">LOGIN</a></li>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="#">UNTERNEHMEN<img src="./assets/images/menu-icon.png" class="menu-icon" alt=""/></a>
+              <ul>
+                <li><a href="#">Ueber uns</a></li>
+                <li><a href="#">Unsere Leistungen</a></li>
+              </ul>
+              </li>
+              <li><a href="projects.html">PROJEKTE</a></li>
+              <li><a href="#">KONTAKT</a></li>
+              <li class="search-icon"><a href=""><img src="./assets/images/search.png" alt=""></a></li>
+              <li class="toggle-icon"><a href=""><img src="./assets/images/toggle.png" alt=""></a></li>
             </ul>
-            <label id="icon">
-              <i class="fas fa-bars"></i>
-            </label>
           </nav>
-        </div>
-    </section>
+        </header>
 
-    <!-- Online Petition Section -->
-    <section>
-      <div class="online">
-        <div class="container">
-          <p class="style">Online Petition Drafting Solution</p>
-          <ul class="inline">
-            <li>Search</li>
-            <li>Pay</li>
-            <li>Modify</li>
-            <li>Print</li>
-          </ul>
-
-          <form class="m-form">
-            <input class="text" type="text" name="textbox" id="textbox" />
-            <button class="btn-search">
-              <i class="fa fa-search"></i>Search
-            </button>
-          </form>
-
-          <p class="b-format">Browse Alphabetically</p>
-          
-          <ul type="none" class="a-to-z">
-            <li><a href="#">A</a></li>
-            <li><a href="#">B</a></li>
-            <li><a href="#">C</a></li>
-            <li><a href="#">D</a></li>
-            <li><a href="#">E</a></li>
-            <li><a href="#">F</a></li>
-            <li><a href="#">G</a></li>
-            <li><a href="#">H</a></li>
-            <li><a href="#">I</a></li>
-            <li><a href="#">J</a></li>
-            <li><a href="#">K</a></li>
-            <li><a href="#">L</a></li>
-            <li><a href="#">M</a></li>
-            <li><a href="#">N</a></li>
-            <li><a href="#">O</a></li>
-            <li><a href="#">P</a></li>
-            <li><a href="#">Q</a></li>
-            <li><a href="#">R</a></li>
-            <li><a href="#">S</a></li>
-            <li><a href="#">T</a></li>
-            <li><a href="#">U</a></li>
-            <li><a href="#">V</a></li>
-            <li><a href="#">W</a></li>
-            <li><a href="#">X</a></li>
-            <li><a href="#">Y</a></li>
-            <li><a href="#">Z</a></li>
-          </ul>
-        </div>
       </div>
     </section>
 
-    <!-- About Legeal Drafts Section -->
+    <!-- Slider -->
     <section>
-      <div class="about">
-        <div class="container">
-          <p class="h-about">About Legal Drafts</p>
-          <p class="s-about">
-            LegalDrafts.in provides concise legal templates with precision and
-            certainty created purely based on law of pleadings. Be it a Civil,
-            Criminal, Service, Insurance Laws, Land Acquisition, Arbitration,
-            Banking & Finance, Consumer Laws, Family , MACT , Real Estate &
-            Transaction laws, Recovery Laws, Employment & Labour Laws including
-            Suits of all nature, Petitions and various applications and
-            miscellaneous applications, LegalDrafts.in provides herein well
-            defined legal templates in summary form, succinctly and in the
-            prefect chronological order. LegalDrafts.in provides concise legal
-            templates with precision and certainty created purely based on law
-            of pleadings. Be it a Civil, Criminal, Service, Insurance Laws, Land
-            Acquisition, Arbitration, Banking & Finance, Consumer Laws, Family ,
-            MACT , Real Estate & Transaction laws, Recovery Laws.
-          </p>
-          <div class="slick-carousel">
-            <div class="slide-content"><blockquote>Law is nothing other than a certain ordinance of reason for the common good, 
-              promulgated by the person who has the care of the community.</blockquote>
-              <p>Thomas Aquinas</p>
-              </div>
-            <div class="slide-content"><blockquote>Law is nothing other than a certain ordinance of reason for the common good, 
-              promulgated by the person who has the care of the community.</blockquote>
-              
-              <p>Thomas Aquinas</p>
-              </div>
-            <div class="slide-content"><blockquote>Law is nothing other than a certain ordinance of reason for the common good, 
-              promulgated by the person who has the care of the community.</blockquote> 
-              
-              <p>Thomas Aquinas</p>
+      <div class="container">
+        <div class="slider slider-single-image">
+          <div>
+            <div class="img-up">
+              <p class="gem">[ GEMEINSAM ]</p>
+              <p class="machen">machen wir das Bauen zum Vergnügen</p>
+              <p class="unsere">UNSERE LEISTUNGEN</p>
+            </div>
+            <img src="./assets/images/slider-1.png" width="100%" alt=""/>
+            </div>
+          <div>
+            <div class="img-up">
+              <p class="gem">[ GEMEINSAM ]</p>
+              <p class="machen">Gemeinsam machen wir das Bauen zum Vergnügen</p>
+              <p class="unsere">UNSERE LEISTUNGEN</p>
+            </div>
+            <img src="./assets/images/slider-2.jpg" alt="" width="100%"/>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Browse By Category Section -->
+    <!-- Simply Section -->
     <section>
-      <div class="category">
-        <div class="container">
-          <p class="browse">Browse by Category</p>
-          <div class="content">
+      <div class="container simply-col">
+        <div class="simply">
+          <div class="img-grid">
+            <img src="./assets/images/simply-1.png" width="100%" alt="">
+            <img src="./assets/images/simply-2.png" width="100%" alt="">  
+          </div>
+        </div>
+        <div class="simply">
+          <p class="simply-con">[ KALTENREINER BAU GMBH ]</p>
+          <p class="simply-edit">Einfach erbaulich</p>
+          <p class="simply-dots">…………</p>
+          <p class="simply-para">Individuelle Wohnlösungen sind das Ergebnis kompetenter Planung und Ausführung. Innovationen und qualitative Weiterentwicklungen sind die Herausforderungen für uns als aktives, modernes Unternehmen. Wir garantieren fachliche Kompetenz und Fachwissen in allen Belangen und erarbeiten gemeinsam mit Ihnen die für Sie technisch optimale und wirtschaftliche Lösung.</p>
+          <p class="btn-to"><a href="">ZU UNSEREN PROJEKTEN</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Counter Section -->
+    <section>
+          <div class="container counter-grid">
             <div>
-              <h2>Rera Laws</h2>
-              <ul type="none" class="column">
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-                <li class="col">Agreement for selling the property</li>
-                <li class="col">Agreement for selling the property</li>
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-              </ul>
+              <div class="circle counter-odd">
+                <svg xmlns="http://www.w3.org/2000/svg" width="37.168" height="55.063" viewBox="0 0 37.168 55.063">
+                  <path id="man" d="M105.7,39.252a3.813,3.813,0,0,1-3.28-1.841.918.918,0,1,0-1.567.955,5.665,5.665,0,0,0,1.919,1.913l-.951,4.316-2.293-2.64A.919.919,0,1,0,98.186,40.7l-1.614,1.856-4.065-4.516a5.605,5.605,0,0,0,.615-2.153A12.288,12.288,0,0,0,108.858,24.1V16.519a.918.918,0,1,0-1.835,0V24.1a10.439,10.439,0,0,1-20.878,0V16.316a5.182,5.182,0,0,0,4.819-4.077,31.393,31.393,0,0,0,12.6,4.662.918.918,0,0,0,.255-1.818A29.575,29.575,0,0,1,90.8,9.919a.919.919,0,0,0-1.448.755,4.175,4.175,0,0,1-1.735,3.338,3.777,3.777,0,0,1-2.386.443.918.918,0,0,0-.92.812c-.01.089-.007-.213-.007,7.344a1.9,1.9,0,0,1-1.032-1.679V9.751a2.182,2.182,0,0,1,2.18-2.18.918.918,0,0,0,.852-.577,8.168,8.168,0,0,1,7.62-5.159h7.87a8.216,8.216,0,0,1,8.207,8.207V20.931a.918.918,0,1,0,1.835,0V10.042A10.054,10.054,0,0,0,101.8,0h-7.87a9.99,9.99,0,0,0-9.1,5.784,4.022,4.022,0,0,0-3.392,3.967v11.18a3.745,3.745,0,0,0,2.877,3.627,12.293,12.293,0,0,0,6.988,10.627v.242a3.828,3.828,0,0,1-3.835,3.825A9.467,9.467,0,0,0,78,48.725v5.421a.918.918,0,0,0,1.835,0V48.725a7.632,7.632,0,0,1,7.637-7.637,5.728,5.728,0,0,0,1.2-.127l1.281,5.811a.918.918,0,0,0,1.589.4l1.808-2.082-1.117,8.938a.918.918,0,0,0,1.821.228L95.344,43.93c.058.065.569.637.634.695a.917.917,0,0,0,1.293-.081l.55-.632,1.293,10.348a.918.918,0,0,0,1.821-.228l-1.117-8.938,1.808,2.082a.918.918,0,0,0,1.589-.4L104.5,40.96a5.763,5.763,0,0,0,1.2.128,7.633,7.633,0,0,1,7.637,7.637v5.421a.918.918,0,0,0,1.835,0V48.725a9.467,9.467,0,0,0-9.472-9.472ZM91.352,44.595,90.4,40.277a5.7,5.7,0,0,0,.981-.751L93.606,42Z" transform="translate(-78)" fill="#fff"/>
+              </svg>
+              <img class="one" src="./assets/images/one.png" alt="">
+              </div>
+              <p class="counter-content">Ein Ansprechpartner</p>
             </div>
             <div>
-              <h2>Rera Laws</h2>
-              <ul type="none" class="column">
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-                <li class="col">Agreement for selling the property</li>
-                <li class="col">Agreement for selling the property</li>
-                <li class="col">Agreement for selling the property</li>
-              </ul>
+              <div class="circle counter-even">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52.425" height="52.488" viewBox="0 0 52.425 52.488">
+                  <defs>
+                    <clipPath id="clip-path">
+                      <rect width="52.425" height="52.488" fill="none"/>
+                    </clipPath>
+                  </defs>
+                  <g id="sketch" clip-path="url(#clip-path)">
+                    <g id="sketch-2" data-name="sketch">
+                      <g id="Group_188" data-name="Group 188" transform="translate(35.047 35.232)">
+                        <g id="Group_187" data-name="Group 187">
+                          <path id="Path_186" data-name="Path 186" d="M371.13,360.815a.862.862,0,0,0-.94.187l-9.421,9.421a.862.862,0,0,0,.61,1.472H370.8a.862.862,0,0,0,.862-.862v-9.421A.862.862,0,0,0,371.13,360.815Zm-7.67,9.356,6.478-6.478v6.478Z" transform="translate(-360.517 -360.749)" fill="#fff"/>
+                        </g>
+                      </g>
+                      <g id="Group_190" data-name="Group 190" transform="translate(0 0)">
+                        <g id="Group_189" data-name="Group 189">
+                          <path id="Path_187" data-name="Path 187" d="M51.95,25.508a.767.767,0,0,0-.839.167l-2.3,2.315V12.251a.771.771,0,0,0-.769-.773H42.125l2.146-2.156h0L46.34,7.245a2.364,2.364,0,0,0,0-3.333l-2.391-2.4a2.339,2.339,0,0,0-3.318,0L38.562,3.588,36.062,6.1l-5.355,5.379H6.821V3.832a.771.771,0,0,0-.769-.773A6.072,6.072,0,0,0,0,9.138V41.965a.778.778,0,0,0,.018.166,5.839,5.839,0,0,0,5.811,5.409H29.342l-4.428,4.448a.773.773,0,0,0,.544,1.319h26.2a.771.771,0,0,0,.769-.773V26.222A.773.773,0,0,0,51.95,25.508ZM41.719,2.6a.806.806,0,0,1,1.142,0l2.391,2.4a.814.814,0,0,1,0,1.147L43.727,7.684,40.194,4.135ZM39.106,5.228l3.533,3.549-1.412,1.418L37.694,6.646Zm11.78,29.679h-1.42a.773.773,0,0,0,0,1.546h1.42v2.329h-1.42a.773.773,0,0,0,0,1.546h1.42v2.329h-1.42a.773.773,0,0,0,0,1.546h1.42v2.329h-1.42a.773.773,0,0,0,0,1.546h1.42v3.686H27.315l7.772-7.807a.772.772,0,0,0-.11-1.184.767.767,0,0,0-.978.091L30.881,46H5.829a4.274,4.274,0,0,1-4.286-4.17q.007-.22.034-.436v0q.013-.1.031-.2l0-.023q.016-.091.036-.18l.011-.05q.018-.076.038-.151c.007-.027.015-.054.023-.081s.023-.078.035-.117.026-.077.039-.115.019-.054.029-.08c.019-.051.039-.1.059-.15l.018-.043c.026-.062.054-.123.083-.183l0-.008a4.533,4.533,0,0,1,3.149-2.473l.012,0c.064-.013.128-.024.193-.035l.032-.006c.058-.009.118-.016.177-.023l.05-.006c.057-.006.115-.01.172-.013l.055,0q.113-.006.228-.006a.771.771,0,0,0,.769-.773v-5.6a.769.769,0,1,0-1.539,0v4.88a6,6,0,0,0-3.456,1.68c-.1.1-.195.2-.287.3V9.138A4.535,4.535,0,0,1,5.282,4.671V27.964h0a.769.769,0,1,0,1.539,0h0V13.024H29.167L24.914,17.3a.775.775,0,0,0,0,1.093.767.767,0,0,0,1.088,0L31.569,12.8h0l5.036-5.058,3.533,3.549-.414.416h0L24.208,27.289l-3.533-3.549,3.058-3.072a.775.775,0,0,0,0-1.093.767.767,0,0,0-1.088,0l-3.6,3.618a.775.775,0,0,0-.054.061l-.016.022c-.011.015-.022.029-.031.044l-.016.027c-.008.014-.017.029-.024.044l-.014.03c-.007.015-.013.031-.019.046l-.007.016-1.5,4.266L16.34,30.657a.784.784,0,0,0-.031.118H13.75a.773.773,0,0,0,0,1.546H35.06a.773.773,0,0,0,0-1.546H19.771l4.693-1.664.011,0,.054-.023.021-.01c.018-.009.037-.019.054-.03l.017-.01c.019-.012.037-.025.054-.039l.013-.01a.774.774,0,0,0,.062-.056l15.834-15.9h6.682V29.536L36.261,40.592a.775.775,0,0,0,0,1.093.786.786,0,0,0,.058.053.767.767,0,0,0,1.03-.053h0l13.537-13.6ZM22.8,28.061l-2.2.782-1.469-1.475.778-2.214Z" transform="translate(0 -0.82)" fill="#fff"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <img class="one" src="./assets/images/two.png" alt="">
+              </div>
+              <p class="counter-content">Individuelle Planung <br>Statiker</p>
             </div>
             <div>
-              <h2>Rera Laws</h2>
-              <ul type="none" class="column">
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-                <li class="col">Agreement for selling the property</li>
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-                <li class="col">Agreement for selling the property</li>
-              </ul>
+              <div class="circle counter-odd">
+                <svg xmlns="http://www.w3.org/2000/svg" id="wall" width="50.726" height="50.727" viewBox="0 0 50.726 50.727">
+                  <g id="Group_192" data-name="Group 192" transform="translate(25.967 12.911)">
+                    <g id="Group_191" data-name="Group 191">
+                      <path id="Path_198" data-name="Path 198" d="M285.2,130.319H263.737a1.648,1.648,0,0,0-1.646,1.646v8.7a1.648,1.648,0,0,0,1.646,1.646H285.2a1.648,1.648,0,0,0,1.646-1.646v-8.7A1.648,1.648,0,0,0,285.2,130.319Zm.16,1.646v8.7a.16.16,0,0,1-.16.16c-22.584-.075-21.627.155-21.627-.16v-8.7a.16.16,0,0,1,.16-.16C286.322,131.88,285.365,131.65,285.365,131.965Z" transform="translate(-262.091 -130.319)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Group_194" data-name="Group 194" transform="translate(12.983)">
+                    <g id="Group_193" data-name="Group 193">
+                      <path id="Path_199" data-name="Path 199" d="M154.159,0H132.691a1.648,1.648,0,0,0-1.646,1.646v8.7a1.648,1.648,0,0,0,1.646,1.646h21.467a1.648,1.648,0,0,0,1.646-1.646v-8.7A1.648,1.648,0,0,0,154.159,0Zm.16,10.346a.16.16,0,0,1-.16.16H132.691a.16.16,0,0,1-.16-.16v-8.7h0c0-.315-.957-.085,21.627-.16a.16.16,0,0,1,.16.16v8.7Z" transform="translate(-131.045)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Group_196" data-name="Group 196" transform="translate(38.844)">
+                    <g id="Group_195" data-name="Group 195">
+                      <path id="Path_200" data-name="Path 200" d="M402.3,0h-8.591a1.648,1.648,0,0,0-1.646,1.646v8.7a1.648,1.648,0,0,0,1.646,1.646H402.3a1.648,1.648,0,0,0,1.646-1.646v-8.7A1.648,1.648,0,0,0,402.3,0Zm.16,10.346a.16.16,0,0,1-.16.16h-8.591a.16.16,0,0,1-.16-.16v-8.7a.16.16,0,0,1,.16-.16H402.3a.16.16,0,0,1,.16.16Z" transform="translate(-392.062)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Group_198" data-name="Group 198" transform="translate(38.844 25.823)">
+                    <g id="Group_197" data-name="Group 197">
+                      <path id="Path_201" data-name="Path 201" d="M402.3,260.637h-8.591a1.648,1.648,0,0,0-1.646,1.646v8.7a1.648,1.648,0,0,0,1.646,1.646H402.3a1.648,1.648,0,0,0,1.646-1.646v-8.7A1.648,1.648,0,0,0,402.3,260.637Zm.16,10.346a.16.16,0,0,1-.16.16h-8.591a.16.16,0,0,1-.16-.16v-8.7a.16.16,0,0,1,.16-.16H402.3a.16.16,0,0,1,.16.16Z" transform="translate(-392.062 -260.637)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Group_200" data-name="Group 200" transform="translate(0 25.823)">
+                    <g id="Group_199" data-name="Group 199">
+                      <path id="Path_202" data-name="Path 202" d="M10.237,260.637H1.646A1.648,1.648,0,0,0,0,262.283v8.7a1.648,1.648,0,0,0,1.646,1.646h8.591a1.648,1.648,0,0,0,1.646-1.646v-8.7A1.648,1.648,0,0,0,10.237,260.637Zm.16,10.346a.16.16,0,0,1-.16.16H1.646a.16.16,0,0,1-.16-.16v-8.7a.16.16,0,0,1,.16-.16h8.591a.16.16,0,0,1,.16.16Z" transform="translate(0 -260.637)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Group_202" data-name="Group 202" transform="translate(0 12.911)">
+                    <g id="Group_201" data-name="Group 201">
+                      <path id="Path_203" data-name="Path 203" d="M23.114,130.319H1.646A1.648,1.648,0,0,0,0,131.965v8.7a1.648,1.648,0,0,0,1.646,1.646H23.114a1.648,1.648,0,0,0,1.646-1.646v-8.7A1.648,1.648,0,0,0,23.114,130.319Zm.16,10.346a.16.16,0,0,1-.16.16c-22.585-.075-21.627.155-21.627-.16v-8.7c0-.315-.957-.085,21.627-.16a.16.16,0,0,1,.16.16Z" transform="translate(0 -130.319)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Group_204" data-name="Group 204" transform="translate(25.967 38.734)">
+                    <g id="Group_203" data-name="Group 203">
+                      <path id="Path_204" data-name="Path 204" d="M285.2,390.956H263.737a1.648,1.648,0,0,0-1.646,1.646v8.7a1.648,1.648,0,0,0,1.646,1.646H285.2a1.648,1.648,0,0,0,1.646-1.646v-8.7A1.648,1.648,0,0,0,285.2,390.956Zm.16,10.346a.16.16,0,0,1-.16.16c-22.584-.075-21.627.155-21.627-.16v-8.7c0-.315-.957-.085,21.627-.16a.16.16,0,0,1,.16.16Z" transform="translate(-262.091 -390.956)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Group_206" data-name="Group 206" transform="translate(0 38.734)">
+                    <g id="Group_205" data-name="Group 205">
+                      <path id="Path_205" data-name="Path 205" d="M23.114,390.956H1.646A1.648,1.648,0,0,0,0,392.6v8.7a1.648,1.648,0,0,0,1.646,1.646H4.208a.743.743,0,1,0,0-1.486H1.646a.16.16,0,0,1-.16-.16v-8.7a.16.16,0,0,1,.16-.16c22.584.075,21.627-.155,21.627.16v8.7c0,.315.494.086-15.6.16a.743.743,0,1,0,0,1.486H23.114A1.648,1.648,0,0,0,24.76,401.3v-8.7A1.648,1.648,0,0,0,23.114,390.956Z" transform="translate(0 -390.956)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Group_208" data-name="Group 208" transform="translate(12.983 25.823)">
+                    <g id="Group_207" data-name="Group 207">
+                      <path id="Path_206" data-name="Path 206" d="M154.159,260.637H151.33a.743.743,0,1,0,0,1.486h2.829a.16.16,0,0,1,.16.16v8.7c0,.315.957.085-21.627.16a.16.16,0,0,1-.16-.16v-8.7c0-.315-.469-.086,15.331-.16a.743.743,0,1,0,0-1.486H132.691a1.648,1.648,0,0,0-1.646,1.646v8.7a1.648,1.648,0,0,0,1.646,1.646h21.467a1.648,1.648,0,0,0,1.646-1.646v-8.7A1.648,1.648,0,0,0,154.159,260.637Z" transform="translate(-131.045 -260.637)" fill="#fff"/>
+                    </g>
+                  </g>
+                  <g id="Group_210" data-name="Group 210">
+                    <g id="Group_209" data-name="Group 209">
+                      <path id="Path_207" data-name="Path 207" d="M10.237,0H1.646A1.648,1.648,0,0,0,0,1.646V4.262a.743.743,0,0,0,1.486,0V1.646a.16.16,0,0,1,.16-.16h8.591a.16.16,0,0,1,.16.16v8.7a.16.16,0,0,1-.16.16H1.646a.16.16,0,0,1-.16-.16V7.73A.743.743,0,1,0,0,7.73v2.616a1.648,1.648,0,0,0,1.646,1.646h8.591a1.648,1.648,0,0,0,1.646-1.646v-8.7A1.648,1.648,0,0,0,10.237,0Z" fill="#fff"/>
+                    </g>
+                  </g>
+                </svg>
+                <img class="one" src="./assets/images/three.png" alt="">
+              </div>
+              <p class="counter-content">Bauausführung in <br>Massivbauweise</p>
             </div>
             <div>
-              <h2>Rera Laws</h2>
-              <ul type="none" class="column">
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-              </ul>
+              <div class="circle counter-even">
+                <svg xmlns="http://www.w3.org/2000/svg" id="salary" width="56.945" height="58.734" viewBox="0 0 56.945 58.734">
+                  <g id="Group_186" data-name="Group 186" transform="translate(0 0)">
+                    <path id="Path_184" data-name="Path 184" d="M64.107,42.038c-1.1-1.61-2.954-2-4.973-1.053l-1.07.471a17.694,17.694,0,0,0,1.057-11.392A27.483,27.483,0,0,0,52.2,17.541.86.86,0,1,0,50.928,18.7a25.8,25.8,0,0,1,6.514,11.733,15.426,15.426,0,0,1-2.019,12.183L44.714,47.334l.009-1.209a.84.84,0,0,0,0-.091,5.391,5.391,0,0,0-4.62-4.816l-.022,0-9.517-1.1C26.9,39.6,25.958,37.4,21,36.154a18.519,18.519,0,0,1,1.365-9.1c1.884-4.671,5.57-9.209,10.68-13.159,1.9,1.35,10.4,1.518,12.3-.224.974.74,1.9,1.5,2.77,2.274a.86.86,0,1,0,1.144-1.284c-.949-.846-1.971-1.68-3.042-2.487A3.062,3.062,0,0,0,45.2,9.122c2.693-4.085,3.477-6.759,2.395-8.16A1.5,1.5,0,0,0,45.528.644a1.38,1.38,0,0,1-1.65-.059,3.092,3.092,0,0,0-3.622,0,1.387,1.387,0,0,1-1.738,0,3.092,3.092,0,0,0-3.622,0A1.369,1.369,0,0,1,33.248.64a1.5,1.5,0,0,0-2.066.307c-1.058,1.361-.35,3.951,2.162,7.9a2.8,2.8,0,0,0-.437.292,5.808,5.808,0,0,0-5-1.891,6.3,6.3,0,0,1-4.28-1.012.86.86,0,0,0-.958,1.429,8.011,8.011,0,0,0,5.429,1.293,4.2,4.2,0,0,1,3.842,1.68q-.016.055-.029.111a14.763,14.763,0,0,0-2.728.3,8.078,8.078,0,0,0-5.6,3.584.86.86,0,1,0,1.485.869c1.569-2.681,5.4-3.009,6.918-3.029.007.019.014.038.021.056-5.427,4.186-9.205,8.855-11.234,13.885A20.417,20.417,0,0,0,19.237,35.8a17.9,17.9,0,0,0-2.5-.193v-.52a2.5,2.5,0,0,0-2.5-2.5H10.293a2.5,2.5,0,0,0-2.5,2.5V55.123a2.5,2.5,0,0,0,2.5,2.5h3.949a2.5,2.5,0,0,0,2.5-2.5v-.245l8.614,3.206a10.306,10.306,0,0,0,3.606.649H41.794a10.322,10.322,0,0,0,5.533-1.605C64.449,46.273,63.409,46.948,63.508,46.861a3.689,3.689,0,0,0,.6-4.823ZM43.736,12.651a18.645,18.645,0,0,1-9.351,0c-1.35-.341-.959-2.749.492-2.385a16.775,16.775,0,0,0,8.367,0C44.67,9.908,45.108,12.3,43.736,12.651ZM32.462,2.171l.02.01a3.052,3.052,0,0,0,3.356-.156c1.466-.959,1.625.579,3.549.579A2.988,2.988,0,0,0,41.2,2.025a1.388,1.388,0,0,1,1.739,0,3.068,3.068,0,0,0,3.37.154c.177.638-.224,2.54-2.774,6.338-1.267-.022-3.1,1.223-8.309.064-2.545-3.847-2.939-5.767-2.761-6.41ZM62.413,45.532,46.406,55.675a8.6,8.6,0,0,1-4.612,1.338H28.959a8.589,8.589,0,0,1-3.006-.541l-9.214-3.43V43.778a.86.86,0,1,0-1.72,0V55.123a.777.777,0,0,1-.776.776H10.293a.777.777,0,0,1-.776-.776V35.089a.777.777,0,0,1,.776-.776h3.949a.777.777,0,0,1,.776.776v4.668a.86.86,0,1,0,1.72,0V37.329c7.116.054,8.716,3.805,13.591,4.495l.022,0,9.516,1.1A3.675,3.675,0,0,1,43,46.16L42.99,47.8H34.115a.86.86,0,1,0,0,1.721h9.729a.891.891,0,0,0,.343-.072l15.65-6.89c1.125-.5,2.152-.572,2.847.451A1.965,1.965,0,0,1,62.413,45.532Z" transform="translate(-7.797 0.001)" fill="#fff"/>
+                    <text id="_" data-name="€" transform="translate(22.078 17.123)" fill="#fff" font-size="21" font-family="Raleway-SemiBold, Raleway" font-weight="600"><tspan x="0" y="20">€</tspan></text>
+                  </g>
+                </svg>
+                <img class="one" src="./assets/images/four.png" alt="">
+              </div>
+              <p class="counter-content">Festpreisgarantie / <br>Volle Gewährleistungs</p>
             </div>
             <div>
-              <h2>Rera Laws</h2>
-              <ul type="none" class="column">
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-                <li class="col">Agreement for selling the property</li>
-              </ul>
+              <div class="circle counter-odd">
+                <svg xmlns="http://www.w3.org/2000/svg" id="term" width="54.126" height="58.734" viewBox="0 0 54.126 58.734">
+                  <path id="Path_188" data-name="Path 188" d="M79.3,227.8a.865.865,0,0,0-.865.865v1.563a20.6,20.6,0,0,0,8.022,16.382l8.174,6.344a1.672,1.672,0,0,0,2.051,0l6.393-4.962a.865.865,0,0,0-1.061-1.367l-6.358,4.935-8.138-6.316a18.881,18.881,0,0,1-7.353-15.014v-1.563A.865.865,0,0,0,79.3,227.8Z" transform="translate(-71.738 -201.666)" fill="#fff"/>
+                  <path id="Path_189" data-name="Path 189" d="M219.4,460.369a1.186,1.186,0,1,0,1.186,1.186A1.186,1.186,0,0,0,219.4,460.369Z" transform="translate(-195.488 -407.557)" fill="#fff"/>
+                  <path id="Path_190" data-name="Path 190" d="M219.4,40.683a1.186,1.186,0,1,0,1.186,1.186A1.186,1.186,0,0,0,219.4,40.683Z" transform="translate(-195.488 -36.016)" fill="#fff"/>
+                  <path id="Path_191" data-name="Path 191" d="M384.224,102.791a1.186,1.186,0,1,0,1.186-1.186A1.186,1.186,0,0,0,384.224,102.791Z" transform="translate(-342.452 -89.949)" fill="#fff"/>
+                  <path id="Path_192" data-name="Path 192" d="M50.975,102.791a1.186,1.186,0,1,0,1.186-1.186A1.186,1.186,0,0,0,50.975,102.791Z" transform="translate(-47.432 -89.949)" fill="#fff"/>
+                  <path id="Path_193" data-name="Path 193" d="M72.5,53.061V32.071A2.977,2.977,0,0,0,71.235,26.4H61.224V15.89a1.67,1.67,0,0,0-1.482-1.662,39.668,39.668,0,0,1-9.133-2.08,26.216,26.216,0,0,1-4.982-2.4,3.061,3.061,0,0,0-3.249,0,26.215,26.215,0,0,1-4.982,2.4,39.674,39.674,0,0,1-9.133,2.08A1.67,1.67,0,0,0,26.78,15.89v7.015a.865.865,0,1,0,1.731,0V15.942a41.373,41.373,0,0,0,9.478-2.168,27.947,27.947,0,0,0,5.311-2.56,1.306,1.306,0,0,1,1.4,0,27.941,27.941,0,0,0,5.311,2.561,41.374,41.374,0,0,0,9.478,2.168V26.4H54.855a2.977,2.977,0,0,0-1.25,5.679V50.91l-6.467,5.019A5.142,5.142,0,0,1,44,57a5.071,5.071,0,0,1-3.137-1.075l-9.23-7.163a25.378,25.378,0,0,1-9.818-20.048V9.858a.4.4,0,0,1,.4-.4l2.806-.02c9.589-.07,14.257-3.317,16.186-5.246a17.592,17.592,0,0,0,1.624-1.869A1.458,1.458,0,0,1,44.01,1.73h0a1.446,1.446,0,0,1,1.167.588,16.955,16.955,0,0,0,1.613,1.869c1.553,1.553,6.24,5.174,16.186,5.246l2.806.02a.4.4,0,0,1,.4.4V22.869a.865.865,0,1,0,1.731,0V9.858A2.14,2.14,0,0,0,65.8,7.723L62.993,7.7C53.686,7.635,49.42,4.366,48.018,2.964A15.24,15.24,0,0,1,46.57,1.287,3.162,3.162,0,0,0,44.018,0H44.01a3.174,3.174,0,0,0-2.56,1.28,15.84,15.84,0,0,1-1.463,1.684c-1.742,1.742-6,4.674-14.975,4.739l-2.806.02a2.14,2.14,0,0,0-2.119,2.134v18.86A27.108,27.108,0,0,0,30.574,50.133L39.8,57.3a6.844,6.844,0,0,0,8.4,0l4.263-3.309a2.976,2.976,0,0,0,2.393,4.747h16.38A2.977,2.977,0,0,0,72.5,53.061ZM55.336,43.038a20.762,20.762,0,0,0,2.011-2.389A8.135,8.135,0,0,0,59.5,42.508a9.313,9.313,0,0,0-4.161,6.05Zm0-6.58a9.766,9.766,0,0,0,.976,2.65q-.458.684-.976,1.327Zm1.54,13.909c0-3.082,2.137-6.22,4.667-6.853a1.038,1.038,0,0,0,0-2.014c-2.53-.633-4.667-3.771-4.667-6.853v-2.3H69.215v2.3c0,3.082-2.137,6.22-4.667,6.853a1.038,1.038,0,0,0,0,2.014c2.53.633,4.667,3.771,4.667,6.853v2.411H56.876Zm13.891-1.753a9.319,9.319,0,0,0-4.172-6.107A9.319,9.319,0,0,0,70.767,36.4ZM54.855,28.128h16.38a1.247,1.247,0,0,1,0,2.494H54.855a1.247,1.247,0,1,1,0-2.494ZM71.235,57H54.855a1.247,1.247,0,0,1,0-2.494h16.38a1.247,1.247,0,0,1,0,2.494Z" transform="translate(-20.087 0)" fill="#fff"/>
+                  <path id="Path_194" data-name="Path 194" d="M127.246,171.9h.012a2.581,2.581,0,0,0,2.039-.989l10.938-13.881a2.6,2.6,0,1,0-4.078-3.213l-8.87,11.256-4.034-5.267a2.6,2.6,0,0,0-4.122,3.157l6.065,7.92A2.582,2.582,0,0,0,127.246,171.9Zm-6.911-10.63a.866.866,0,0,1,1.545-.412l4.711,6.151a.866.866,0,0,0,.681.339.882.882,0,0,0,.686-.33l9.559-12.131a.865.865,0,0,1,1.359,1.071l-10.938,13.881a.86.86,0,0,1-.68.33h-.006a.859.859,0,0,1-.681-.339l-6.065-7.92A.858.858,0,0,1,120.335,161.275Z" transform="translate(-107.296 -135.3)" fill="#fff"/>
+                </svg>
+                <img class="one" src="./assets/images/five.png" alt="">
+              </div>
+              <p class="counter-content">Bauzeitgarantie</p>
             </div>
-            <div>
-              <h2>Rera Laws</h2>
-              <ul type="none" class="column">
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-                <li>
-                  <i class="fa fa-file-text rera"></i>Agreement for selling the
-                  property
-                </li>
-              </ul>
+          </div>
+    </section>
+
+    <!-- Strengths Section -->
+    <section>
+      <div class="bg-image">
+        <div class="container s-content">
+          <div class="s-part-left">
+            <p class="con-uber">[ ÜBERREGIONAL TÄTIGES BAUUNTERNEHMEN ]</p>
+            <p class="con-das">Das sind unsere Stärken</p>
+            <p class="con-dot">…………</p>
+            <div class="progress">
+            <p class="progress-bar">NEUBAU VON EIN- UND MEHRFAMILIENHÄUSER</p>
+            <p class="progress-bar">UMBAU, ZUBAU UND SANIERUNGEN</p>
+            <p class="progress-bar">GEWERBEPROJEKTE</p>
+            <p class="progress-bar">FASSADENGESTALTUNG, SCHWIMMBÄDER, AUSSENGESTALTUNG</p>
+            <p class="progress-bar">ABWICKLUNG VON GENERALUNTERNEHMESPROJEKTE</p>
+            <p class="progress-bar">LEHRLINGSAUSBILDUNGSBETRIEB</p>
+            </div>
+          </div>
+          <div class="s-part-right">
+            <img src="./assets/images/strengths.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Projects -->
+    <section>
+      <div class="container">
+        <p class="our-heading">[ EINBLICKE IN ]</p>
+        <p class="our-project">Unsere Projekte</p>
+        <p class="our-dot">…………</p>
+        
+        <div class="our-f-left">
+          <img src="./assets/images/img--1-1.png" width="100%" alt="">
+          <div class="img-hover">
+            <p><a class="con-ste" href="#">Steyr<br>Schroffgasse</a></p>
+            <p class="con-bau">[ BAUTRÄGERPROJEKTE ]</p>
+          </div>
+        </div>
+        <div class="our-f-right">
+          <div class="our-d-flex-1">
+            <div class="our-img1-1">
+              <img src="./assets/images/img--1-2.png" width="100%"  alt="">
+              <div class="img-hover">
+                <p><a class="con-ste" href="#">Wohnhaus in St.<br> Ulrich </a></p>
+                <p class="con-bau">[ PRIVATBAUTEN ]</p>
+              </div>
+            </div>
+            <div class="our-img1-2">
+              <img src="./assets/images/img--1-3.png" width="100%"  alt="">
+              <div class="img-hover">
+                <p><a class="con-ste" href="#">Wohnhaus in<br> Behamberg </a></p>
+                <p class="con-bau">[ PRIVATBAUTEN ]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="f-left">
+          <div class="d-flex-1">
+            <div class="our-img2-1">
+              <img src="./assets/images/img--2-1.png" width="100%"  alt="">
+              <div class="img-hover">
+                <p><a class="con-ste" href="#">Wohnhaus in St.<br> Ulrich </a></p>
+                <p class="con-bau">[ PRIVATBAUTEN ]</p>
+              </div>
+            </div>
+            <div class="our-img2-2">
+              <img src="./assets/images/img--2-2.png" width="100%"  alt="">
+              <div class="img-hover">
+                <p><a class="con-ste" href="#">Steyr-<br>Steinerstraße </a></p>
+                <p class="con-bau">[ BAUTRÄGERPROJEKTE ]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="f-right">
+          <img src="./assets/images/img--2-3.png" width="100%"  alt="">
+          <div class="img-hover">
+            <p><a class="con-ste" href="#">Wohnhaus in<br> Dietach </a></p>
+            <p class="con-bau">[ PRIVATBAUTEN ]</p>
+          </div>
+        </div>
+      </div>  
+    </section>
+    
+    <!-- Footer -->
+    <section>
+      <div class="main-footer">
+        <div class="main-container">
+          <div class="footer">
+            <div class="footer-top">
+              <img src="./assets/images/footer-logo.png" alt="" />
+              <p>
+                Ihr vertrauenswürdiger <br />
+                Baumeister
+              </p>
+                <a class="f-footer" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+            <div class="footer-kon">
+              <p class="f-main-heading">Kontakt</p>
+              <p class="f-location">Betriebspark 5, 4451 St.Ulrich/Steyr</p>
+              <p class="f-contact">+43(0)7252/70925</p>
+              <p class="f-mail">office@kaltenreiner.at</p>
+            </div>
+            <div class="footer-kon">
+              <p class="f-main-heading">Büro Öffnungszeiten</p>
+              <p class="f-content">Mo-Do 7:30-12:00 und 13:00-16:00 Uhr</p>
+              <p class="f-content">Fr 7:30-14:00 Uhr</p>
+              <p class="f-content">und nach Vereinbarung</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Affordable legaldrafts Section -->
+    <!-- Footer Bottom -->
     <section>
-      <div class="affor">
-        <div class="container">
-          <p class="high">Affordable Legal Drafts</p>
-          <p class="low">Prices starting as low as Rs 300</p>
-          <p class="m-bottom"><a href="#" class="btn-try">Try Now</a></p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sitemap Section -->
-    <section>
-      <div class="sitemap">
-        <div class="container">
-          <div class="left">
-            <p>Sitemap</p>
-            <div class="grid">
-              <div class="m-space">
-                <span><a href="#">Home</a></span>
-              </div>
-              <div>
-                <span><a href="#">About Us</a></span>
-              </div>
-              <div>
-                <span><a href="#">Supports</a></span>
-              </div>
-              <div>
-                <span><a href="#">Pricing</a></span>
-              </div>
-              <div>
-                <span><a href="#">FAQs</a></span>
-              </div>
-              <div>
-                <span><a href="#">Blog</a></span>
-              </div>
+      <div class="main-footer">
+        <div class="footer-bottom">
+          <div class="main-container d-flex">
+            <div>
+              <p class="bottom-con">© 2022 &nbsp <a href="#"> Kaltenreiner</a> Bau GmbH | powered by Brandzone Kreativagentur</p>
+            </div>
+            <div>
+              <p class="bottom-con"><a href="#">Datenschutz</a> | <a>Impressum</a></p>
             </div>
           </div>
-          <div class="right s-bottom">
-            <p>Powered by</p>
-            <img class="s-right" src="../Project1/assets/images/escope.png" alt="" />
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- Footer Section -->
-    <section>
-      <div class="footer">
-        <p>Copyright 2018 <a href="#">Legaldrafts.in</a> | <a href="#">Terms and Policies</a></p>
-      </div>
-    </section>
-
-    <script>
-      $().ready(function () {
-        $(".slick-carousel").slick({
-          arrows: false,
-          centerPadding: "0px",
-          dots: true,
-          slidesToShow: 1,
-          infinite: false,
-        });
-      });
-
-      $(document).ready(function(){
-          $('#icon').click(function(){
-            $('ul').toggleClass('show');
-          });
-        });
-      </script>
+    <script src="./assets/js/custom.js"></script>
   </body>
 </html>
