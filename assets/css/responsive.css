@@ -1,23 +1,159 @@
 /* For 1366 or Up to 1439 */
 
 @media only screen and (max-width:1439px){
-  /* Browse By Category */
-  .content{
-    margin-left: 40px;
-  }
 
 }
+
 
 
 /* For 1280 or Up to 1365 */
 
 @media only screen and (max-width:1365px){
+  
+  
+    /* Slider */
+    .img-up{
+      top: 180px;
+      width: 550px;
+    }
+    .gem{
+      padding-top: 30px;
+      padding-left: 60px;
+    }
+    .machen{
+      padding-left: 60px;
+      font-size: 40px;
+    }
+    .unsere{
+      padding-left: 60px;
+      padding-bottom: 50px;
+    }
+  
+  /* Simply */
+  .simply-con{
+    padding-top: 5px;
+  }
+  .simply-para{
+    padding-top: 10px;
+  }
 
+  /* Strenghts */
+  .con-uber{
+    margin-top: 20px;
+  } */
 }
 
 /* For 1024 or Up to 1279 */
 @media only screen and (max-width:1279px){
 
+  /* Header */
+  .header label{
+    display: block;
+  }
+  .header .navigation{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    background-color: #1C1C1C;
+    display: none;
+    z-index: 1;
+    margin-left: -70px;
+  }
+  .header .navigation ul li{
+    width: 100%;
+  }
+  .header .navigation ul li a{
+    padding: 8px 30px 8px 10% ;
+    color: #FFF;
+  }
+  .header .navigation ul li ul{
+    position: relative;
+    left: 0;
+  }
+  #toggle:checked~ .navigation{
+    display: block;
+  }
+  .search-icon, .toggle-icon{
+    display: none;
+  }
+
+  /* Slider */
+  .img-up{
+    top: 120px;
+    right: 250px;
+    background-color: #000;
+    opacity: .7;
+    width: 450px;
+  }
+  .gem{
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  .machen{
+    padding-left: 50px;
+    font-size: 34px;
+  }
+  .unsere{
+    padding-left: 50px;
+    padding-bottom: 30px;
+  }
+
+  /* Simply */
+  .simply-con, .simply-edit, .simply-dots, .simply-para{
+      padding-top: 0px;
+      padding-left: 20px;
+  }
+  .simply-edit{
+      font-size: 35px;
+  }
+  .simply-para{
+      font-size: 16px;
+      padding-top: 5px;
+      line-height: 23px;
+      padding-bottom: 15px;
+  }
+  .btn-to a{
+      padding: 12px;
+  }
+
+  /* Counter */
+  .counter-grid{
+    grid-template-columns: auto auto auto;
+  }
+  .counter-even{
+    margin-top: 40px;
+  }
+
+  /* Strengths */
+  .s-content{
+    display: block;
+  }
+  .s-part-left, .s-part-right{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .con-uber, .con-das, .con-dot{
+    margin-left: 85px;
+  }
+  .progress p{
+    margin-left: 85px;
+  }
+
+  /* Our Projects */
+  .img-hover{
+    width: 200px;
+  }
+  .con-ste{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .con-bau{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 1100px){
@@ -28,147 +164,106 @@
 /* For 960 or Up to 1023 */
 
 @media only screen and (max-width:1023px){
-/* Header */
-  .logo a{
-    font-size: 50px;
-    padding-left: 50px;
-  }
-  nav ul{
-    margin-right: 20px;
-  }
-  nav a{
-    font-size: 10px;
-  } 
+/* Simply */
+.simply-col{
+  display: block;
+  margin-bottom: 50px;
+}	
+.simply{
+  width: 100%;
+}
+.btn-to a{
+  margin-left: 22px;
+}
 
-  /* About Legal Drafts */
-  .s-about{
-    margin-right: 30px;
-    font-size: 12.5px;
-    margin-left: 30px;
-  }
-
-  /* Browse By Category */
-  .content{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 150px;
-  }
-
-  /* Sitemap */
-  .left{
-    margin-left: 45px;
-  }
+/* Footer */
+.footer-top p{
+  font-size: 16px;
+}
+.f-location, .f-content, .f-mail{
+  font-size: 16px;
+}
 }
 
 
 /* For 800 or Up to 959 */
 
 @media only screen and (max-width:959px){
-  /* Header */
-  nav #icon{
-    display: block;
+  /* Slider */
+  .img-up{
+    top: 120px;
+    width: 445px;
+    right: 150px;
   }
-  
-  nav ul{
-    position: fixed;
-    width: 100%;
-    /* height: 100vh; */
-    left: 0;
-    text-align: center;
-    top: 70px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-    background-color: #ffffff;
-    padding: 0px;
-  }	
-  nav li{
-    display: block;
-    margin: 12px 0;
-    line-height: 20px;
+  .gem{
+    font-size: 12px;
+    padding-left: 10px;
   }
-  nav a{
+  .machen{
+    padding-left: 12px;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 0px;
+    line-height: 32px;
+  }
+  .unsere{
     font-size: 10px;
-  }
-  nav ul.show{
-    left: 0px;
-  }
-  .btn-sign{
-    padding: 5px;
-    margin-right: 21px;
-  }
-  .btn-log{
-    padding: 5px 9px;
-    margin-left: 19px;
-  }
-  .menu{
-    margin-left: 18px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px;
   }
 
-  /* Online Petition */
-  .style{
-    font-size: 40px;
-    padding-top: 95px;
+  /* Our Projects */
+  .our-f-left{
+    float: none;
+    width: 100%;
   }
-  .inline{
-    font-size: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  .our-f-right{
+    float: none;
+    width: 100%;
   }
-  .m-form{
-    width:525px ;
+  .f-left{
+    float: none;
+    width: 100%;
   }
-  .text{
-    width: 400px;
+  .f-right{
+    float: none;
+    width: 100%;
   }
-  .b-format{
-    font-size: 32px;
-  }
-  .a-to-z li a{
-    font-size: 23px;
-  }
-  ul.a-to-z{
-    text-align: unset;
-    padding-bottom: 50px;
+  .img-hover{
+    width: 340px;
+    padding-bottom: 20px;
   }
 
-  /* About Legal Drafts */
-  .s-about{
-    margin-right: 30px;
-    font-size: 12.5px;
-    margin-left: 30px;
-  }
-  .slide-content blockquote::before{
-    font-size: 45px;
-    left: 25px;
-  }
-  .slide-content blockquote::after{
-    font-size: 45px;
-    right: 25px;
-  }
-  .slide-content blockquote{
-    font-size: 20px;
-  }
-
-  /* Browse By Category */
-  .content{
-    display: grid;
+  /* Footer */
+  .footer{
     grid-template-columns: auto auto;
-    margin-left: 100px;
   }
-
-  /* Sitemap */
-  .left{
-    margin-left: 45px;
+  .footer-top{
+    padding-bottom: 0px;
   }
-
+  .d-flex{
+    display: block;
+  }
+  .bottom-con{
+    padding-top: 10px;
+  }
+  .footer-kon{
+    padding-top: 30px;
+  }
 }
 
 
 /* For 768 or Up to 799 */
 
 @media only screen and (max-width:799px){
-  
+
+  /* Counter */
+  .counter-grid{
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+  }
+	
 
 }
 
@@ -180,171 +275,132 @@
 /* For 640 or Up to 767 */
 
 @media only screen and (max-width:767px){
-/* Online Petition */
-  ul.a-to-z{
-  text-align: center;
-  line-height: 35px;
-}
+  /* Header */
+  .top-header-content .phone, .envelope{
+    font-size: 16px;
+  }
+  
+  /* Slider */
+	button.slick-next.slick-arrow{
+    height: 60px;
+  }
+  button.slick-prev.slick-arrow{
+    height: 60px;
+  }
+  .img-up{
+    top: 90px;
+    right: 120px;
+  }
 
-/* Browse By Category */
-.content{
-  margin-left: 50px;
-}
-
+  /* Strengths */
+  .con-uber, .con-das, .con-dot{
+    margin-left: 60px;
+    line-height: 18px;
+  }
+  .progress p{
+    margin-left: 60px;
+  }
 }
 
 
 /* For 540 or Up to 639 */
 
 @media only screen and (max-width:639px){
-
-  /* Header */
-  .logo a{
-    font-size: 45px;
+  /* Slider */
+  ul.slick-dots{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
   }
-  nav #icon{
-    margin-top: 10px;
+  .slick-dots li button{
+    font-size: 0;
+    background-color: gray;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+    color: transparent;
   }
-  /* online Petition */
-  .style{
-    font-size: 30px;
-    padding-top: 90px;
+  .slick-dots li.slick-active button{
+    background-color:#000000;
   }
-  .inline{
-    font-size: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  .img-up{
+    top: 45px;
+    right: 45px;
+    width: 420px;
+    text-align: center;
   }
-  .m-form{
-    width:400px ;
-  }
-  .text{
-    width: 310px;
-  }
-  .btn-search{
-    width: 85px;
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 9px;
-  }
-  .btn-search i{
-    padding-right: 3px;
-    font-size: 15px; 
+.f-location::before{
+    padding-right: 5px;
 }
-  .b-format{
-    font-size: 25px;
-  }
-  .a-to-z li a{
-    font-size: 20px;
-    padding-right: 10px;
-  }
-  ul.a-to-z{
-    padding-bottom: 40px;
-    margin-right: 30px;
-  }
-
-  /* About Legal Drafts */
-  .h-about{
-    font-size: 38px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-  }
-  .s-about{
-    padding-bottom: 40px;
-  }
-  .slide-content blockquote::before{
-    font-size: 36px;
-    left: 22px;
-  }
-  .slide-content blockquote::after{
-    font-size: 36px;
-    right: 22px;
-  }
-  .slide-content blockquote{
-    font-size: 18px;
-  }
-
-  /* Browse By Category */
-  .browse{
-    padding-top: 30px;
-    font-size: 38px;
-  }
-  .content{
-  margin-left: 30px;
-  }
-
-  /* Affordable Legal Drafts */
-  .high{
-    font-size: 40px;
-  }
-  .low{
-    font-size: 32px;
-  }
-  .btn-try{
-    font-size: 22px;
-    padding: 2px 60px;
-  }
-  
+.f-contact::before{
+    padding-right: 5px;
 }
+.f-mail::before{
+    padding-right: 5px;
+}
+.footer-kon{
+  padding-top: 30px;
+}
+.machen{
+  line-height: 30px;
+}
+}
+
 
 
 /* For 480 or Up to 539 */
 
 @media only screen and (max-width:539px){
-  /* Header */
-  .logo a{
-    font-size: 40px;
+  /* Slider */
+  .img-up{
+    top: 80px;
+    left: 20px;
+    width: 430px;
+  }
+  .gem{
+    font-size: 10px;
+    padding-top: 8px;
+  }
+  .machen{
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+  }
+  .unsere{
+    font-size: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
   }
 
-  /* Online Petition */
-  .inline{
-    font-size: 24px;
-  }
-  .inline li{
-    padding-right: 10px;
-  }
-  .m-form{
-    width:350px ;
-  }
-  .text{
-    width: 260px;
-  }
-  .btn-search{
-    width: 85px;
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .btn-search i{
-    padding-right: 3px;
-    font-size: 15px; 
-  }
-
-  /* Browse By Category */
-  .content{
+  /* Simply */
+  .img-grid{
     grid-template-columns: auto;
-    margin-left: 125px;
-  }
-  /* Affordable Legal Drafts */
-  .high{
-    font-size: 38px;
-  }
-  .low{
-    font-size: 28px;
-  }
-  .btn-try{
-    font-size: 20px;
-    padding: 2px 50px;
+    row-gap: 20px;
   }
 
-  /* Sitemap */
-  .right,.left{
-    float: none;
-  }
-  .s-bottom{
-    margin-left: 45px;
+  /* Counter */
+  .counter-grid{
+    grid-template-columns: auto;
   }
 
+  /* Our Projects */
+  .our-d-flex-1, .d-flex-1{
+    display: block;
+  }
+  .our-img1-1, .our-img1-2, .our-img2-1, .our-img2-2{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Footer */
+  .footer{
+    grid-template-columns: auto;
+    justify-content: space-around;
+  }
 }
 
 
@@ -352,108 +408,57 @@
 
 @media only screen and (max-width:479px){
   /* Header */
-  nav #icon{
-    display: block;
+  .top-header-content .phone, .envelope{
+    font-size: 13px;
   }
-  .logo a{
-    font-size: 36px;
+  .phone::before{
+    font-size: 13px;
   }
-  nav ul{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    top: 50px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-    background-color: #ffffff;
-    padding: 0px;
-  }	
-  nav li{
-    display: block;
-    margin: 12px 0;
-    line-height: 20px;
-  }
-  nav a{
-    font-size: 10px;
-  }
-  nav ul.show{
-    left: 0px;
-  }
-  .btn-sign{
-    padding: 5px;
-    margin-right: 21px;
-  }
-  .btn-log{
-    padding: 5px 9px;
-    margin-left: 19px;
-  }
-  .menu{
-    margin-left: 18px;
-  }
-  nav #icon{
-    margin-top: 8px;
+	.envelope::before{
+    font-size: 13px;
   }
 
-  /* Online Petition */
-  .style{
-    font-size: 26px;
-    padding-top: 60px;
-  }
-  .inline{
-    font-size: 22px;
-    padding-right: 80px;
-    margin-left: 30px;
-  }
-  .m-form{
-    width:300px ;
-  }
-  .text{
-    width: 210px;
-  }
-  .btn-search{
-    width: 85px;
-  }
-
-  /* About Legal Drafts */
-  .h-about{
-    font-size: 35px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-  }
-  .slide-content blockquote::before{
-    font-size: 34px;
+  /* Slider */
+  .img-up{
+    top: 40px;
     left: 20px;
+    width: 300px;
   }
-  .slide-content blockquote::after{
-    font-size: 34px;
-    right: 20px;
+  .gem{
+    font-size: 10px;
+    padding-top: 10px;
   }
-  .slide-content blockquote{
-    font-size: 18px;
+  .machen{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    line-height: 18px;
   }
-
-  /* Browse By Category */
-  .browse{
-    font-size: 35px;
-  }
-  .content{
-    margin-left: 70px;
-  }
-  .content h2{
-    font-size: 20px;
+  .unsere{
+    font-size: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px;
   }
 
-  /* Affordable */
-  .high{
-    font-size: 35px;
+  /* Strenghts */
+  .progress p{
+    margin-left: 0px;
+    font-size: 14px;
   }
-  .low{
-    font-size: 25px;
+  .progress-bar{
+    width: 100%;
   }
-  .btn-try{
-    font-size: 18px;
+  .con-uber{
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  .con-das{
+    margin-left: 0px;
+    font-size: 30px;
+  }
+  .con-dot{
+    margin-left: 0px;
+    font-size: 14px;
   }
 }
 
@@ -462,132 +467,64 @@
 /* For 360 or Up to 379 */
 
 @media only screen and (max-width:379px){
-  /* Header */
-  nav #icon{
-    display: block;
+  /* Strengths */
+  .progress p{
+    font-size: 11px;
   }
-  .logo a{
-    font-size: 36px;
-  }
-  nav ul{
-    position: absolute;
-    width: 100%;
-    /* height: 100vh; */
-    left: 0;
-    text-align: center;
-    top: 50px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-    background-color: #ffffff;
-    padding: 0px;
-  }	
-  nav li{
-    display: block;
-    margin: 12px 0;
-    line-height: 20px;
-  }
-  nav a{
-    font-size: 10px;
-  }
-  nav ul.show{
-    left: 0px;
-  }
-  .btn-sign{
-    padding: 5px;
-    margin-right: 21px;
-  }
-  .btn-log{
-    padding: 5px 9px;
-    margin-left: 19px;
-  }
-  .menu{
-    margin-left: 18px;
-  }
-  nav #icon{
-    margin-top: 8px;
-  }
+	
 }
+
 
 
 /* For 320 or Up to 359 */
 
 @media only screen and (max-width:359px){
+  
   /* Header */
-  nav #icon{
-    display: block;
-  }
-  .logo a{
-    font-size: 36px;
-  }
-  nav ul{
-    position: absolute;
-    width: 100%;
-    /* height: 100vh; */
-    left: 0;
-    text-align: center;
-    top: 50px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-    background-color: #ffffff;
-    padding: 0px;
-  }	
-  nav li{
-    display: block;
-    margin: 12px 0;
-    line-height: 20px;
-  }
-  nav a{
-    font-size: 10px;
-  }
-  nav ul.show{
-    left: 0px;
-  }
-  .btn-sign{
-    padding: 5px;
-    margin-right: 21px;
-  }
-  .btn-log{
-    padding: 5px 9px;
-    margin-left: 19px;
-  }
-  .menu{
-    margin-left: 18px;
-  }
-  nav #icon{
-    margin-top: 8px;
-  }
-
-  /* Online Petition */
-  .inline{
-    padding-right: 70px;
-  }
-  .m-form{
-    width:260px ;
-  }
-  .text{
-    width: 170px;
-  }
-  .btn-search{
-    width: 85px;
-  }
-
-  /* Browse By Category */
-  .content{
-    margin-left: 45px;
-  }
-
-  /* Affordable Legal Drafts */
-  .high{
-    font-size: 32px;
-  }
-  .low{
-    font-size: 21px;
-  }
-
-  /* Footer */
-  .footer p{
+  .top-header-content .phone, .envelope{
     font-size: 11px;
+  }
+  .phone::before{
+    font-size: 11px;
+  }
+	.envelope::before{
+    font-size: 11px;
+  }
+
+  /* Slider */
+  .img-up{
+    top: 25px;
+    left: 20px;
+    width: 250px;
+  }
+  .gem{
+    font-size: 10px;
+    padding-top: 10px;
+  }
+  .machen{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    line-height: 18px;
+  }
+  .unsere{
+    font-size: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  
+  /* Our Projects */
+  .our-project{
+    font-size: 35px;
+  }
+	
+  /* Strengths */
+  .con-uber{
+    font-size: 13px;
+    padding-bottom: 10px;
+  }
+  .con-das{
+    font-size: 28px;
+    padding-bottom: 10px;
   }
 }

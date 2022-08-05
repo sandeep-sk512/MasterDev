@@ -1,0 +1,189 @@
+/* For 1366 or Up to 1439 */
+
+@media only screen and (max-width:1439px){
+
+}
+
+
+/* For 1280 or Up to 1365 */
+
+@media only screen and (max-width:1365px){
+
+}
+
+/* For 1024 or Up to 1279 */
+@media only screen and (max-width:1279px){
+    /* Header */
+    .header label{
+        display: block;
+      }
+      .header .navigation{
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        background-color: #1C1C1C;
+        display: none;
+        z-index: 1;
+        margin-left: -70px;
+      }
+      .header .navigation ul li{
+        width: 100%;
+      }
+      .header .navigation ul li a{
+        padding: 8px 30px 8px 10% ;
+        color: #FFF;
+      }
+      .header .navigation ul li ul{
+        position: relative;
+        left: 0;
+      }
+      #toggle:checked~ .navigation{
+        display: block;
+      }
+      .search-icon, .toggle-icon{
+        display: none;
+      }
+}
+
+@media screen and (max-width: 1100px){
+
+
+}
+
+/* For 960 or Up to 1023 */
+
+@media only screen and (max-width:1023px){
+/* Header */
+	.tab-grid{
+        grid-template-columns: auto auto;
+    }
+    .tab-grid-last{
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+    }
+    /* Footer */
+    .footer-top p{
+        font-size: 16px;
+    }
+    .f-location, .f-content, .f-mail{
+        font-size: 16px;
+    } 
+}
+
+
+/* For 800 or Up to 959 */
+
+@media only screen and (max-width:959px){
+    /* Footer */
+    .footer{
+        grid-template-columns: auto auto;
+        margin-right: 100px;
+    }
+	.footer-kon{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .footer-top{
+        padding-bottom: 5px;
+    }
+    .d-flex{
+        display: block;
+    }
+    .bottom-con{
+        padding-top: 10px;
+    }
+}
+
+
+/* For 768 or Up to 799 */
+
+@media only screen and (max-width:799px){
+
+	
+
+}
+
+
+
+/*--------- For Tablet and Mobile Device -----------*/
+
+
+/* For 640 or Up to 767 */
+
+@media only screen and (max-width:767px){
+    /* Footer */
+    .footer{
+        margin-right: 10px;
+    }
+	
+
+}
+
+
+/* For 540 or Up to 639 */
+
+@media only screen and (max-width:639px){
+    /* Our Projects */
+    .tab-grid{
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+    .tab-grid-last{
+        grid-template-columns: auto;
+        justify-content: space-around;
+        row-gap: 20px;
+    }
+    /* Footer */
+    .footer{
+        margin-right: 0px;
+    }
+}
+
+
+
+/* For 480 or Up to 539 */
+
+@media only screen and (max-width:539px){
+    /* Footer */
+    .footer{
+        grid-template-columns: auto;
+    }
+    .f-location, .f-content, .f-mail{
+        font-size: 18px;
+    }
+}
+
+
+/* For 380 or Up to 479 */
+
+@media only screen and (max-width:479px){
+    .con-unsera{
+        font-size: 40px;
+    }
+	
+
+}
+
+
+
+/* For 360 or Up to 379 */
+
+@media only screen and (max-width:379px){
+
+	
+
+}
+
+
+
+/* For 320 or Up to 359 */
+
+@media only screen and (max-width:359px){
+/* our Project */
+.con-unsera{
+    font-size: 34px;
+}
+	
+
+}
