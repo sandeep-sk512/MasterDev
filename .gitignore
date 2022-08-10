@@ -1,0 +1,7 @@
+#file
+revert.text
+revert.txt
+
+#directory
+/ignore test/*
+
