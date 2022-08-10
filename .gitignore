@@ -1,6 +1,6 @@
 #file
-revert.text
-revert.txt
+*.text
+
 
 #directory
 /ignore test/*
